@@ -14,6 +14,7 @@
 		388F4EBA2B3D985600B97FB5 /* ScribbleLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388F4EB92B3D985600B97FB5 /* ScribbleLinkTests.swift */; };
 		388F4EC42B3D985600B97FB5 /* ScribbleLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388F4EC32B3D985600B97FB5 /* ScribbleLinkUITests.swift */; };
 		388F4EC62B3D985600B97FB5 /* ScribbleLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388F4EC52B3D985600B97FB5 /* ScribbleLinkUITestsLaunchTests.swift */; };
+		388F4ED42B3D99C000B97FB5 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 388F4ED32B3D99C000B97FB5 /* Documentation.docc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		388F4EBF2B3D985600B97FB5 /* ScribbleLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		388F4EC32B3D985600B97FB5 /* ScribbleLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLinkUITests.swift; sourceTree = "<group>"; };
 		388F4EC52B3D985600B97FB5 /* ScribbleLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		388F4ED32B3D99C000B97FB5 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,8 @@
 		388F4E9B2B3D985300B97FB5 = {
 			isa = PBXGroup;
 			children = (
+				388F4ED32B3D99C000B97FB5 /* Documentation.docc */,
+				388F4ED22B3D997C00B97FB5 /* Configurations */,
 				388F4EA62B3D985400B97FB5 /* ScribbleLink */,
 				388F4EB82B3D985600B97FB5 /* ScribbleLinkTests */,
 				388F4EC22B3D985600B97FB5 /* ScribbleLinkUITests */,
@@ -127,6 +131,13 @@
 				388F4EC52B3D985600B97FB5 /* ScribbleLinkUITestsLaunchTests.swift */,
 			);
 			path = ScribbleLinkUITests;
+			sourceTree = "<group>";
+		};
+		388F4ED22B3D997C00B97FB5 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configurations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				388F4EAA2B3D985400B97FB5 /* ContentView.swift in Sources */,
+				388F4ED42B3D99C000B97FB5 /* Documentation.docc in Sources */,
 				388F4EA82B3D985400B97FB5 /* ScribbleLinkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
