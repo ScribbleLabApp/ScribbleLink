@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		388F4EA82B3D985400B97FB5 /* ScribbleLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388F4EA72B3D985400B97FB5 /* ScribbleLinkApp.swift */; };
+		388F4EAA2B3D985400B97FB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388F4EA92B3D985400B97FB5 /* ContentView.swift */; };
+		388F4EAC2B3D985600B97FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388F4EAB2B3D985600B97FB5 /* Assets.xcassets */; };
+		388F4EB02B3D985600B97FB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388F4EAF2B3D985600B97FB5 /* Preview Assets.xcassets */; };
+		388F4EBA2B3D985600B97FB5 /* ScribbleLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388F4EB92B3D985600B97FB5 /* ScribbleLinkTests.swift */; };
+		388F4EC42B3D985600B97FB5 /* ScribbleLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388F4EC32B3D985600B97FB5 /* ScribbleLinkUITests.swift */; };
+		388F4EC62B3D985600B97FB5 /* ScribbleLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388F4EC52B3D985600B97FB5 /* ScribbleLinkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		388F4EB62B3D985600B97FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388F4E9C2B3D985300B97FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388F4EA32B3D985400B97FB5;
+			remoteInfo = ScribbleLink;
+		};
+		388F4EC02B3D985600B97FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388F4E9C2B3D985300B97FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388F4EA32B3D985400B97FB5;
+			remoteInfo = ScribbleLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		388F4EA42B3D985400B97FB5 /* ScribbleLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScribbleLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		388F4EA72B3D985400B97FB5 /* ScribbleLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLinkApp.swift; sourceTree = "<group>"; };
+		388F4EA92B3D985400B97FB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		388F4EAB2B3D985600B97FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		388F4EAD2B3D985600B97FB5 /* ScribbleLink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScribbleLink.entitlements; sourceTree = "<group>"; };
+		388F4EAF2B3D985600B97FB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		388F4EB52B3D985600B97FB5 /* ScribbleLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388F4EB92B3D985600B97FB5 /* ScribbleLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLinkTests.swift; sourceTree = "<group>"; };
+		388F4EBF2B3D985600B97FB5 /* ScribbleLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388F4EC32B3D985600B97FB5 /* ScribbleLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLinkUITests.swift; sourceTree = "<group>"; };
+		388F4EC52B3D985600B97FB5 /* ScribbleLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388F4EA12B3D985400B97FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388F4EB22B3D985600B97FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388F4EBC2B3D985600B97FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388F4E9B2B3D985300B97FB5 = {
+			isa = PBXGroup;
+			children = (
+				388F4EA62B3D985400B97FB5 /* ScribbleLink */,
+				388F4EB82B3D985600B97FB5 /* ScribbleLinkTests */,
+				388F4EC22B3D985600B97FB5 /* ScribbleLinkUITests */,
+				388F4EA52B3D985400B97FB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		388F4EA52B3D985400B97FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388F4EA42B3D985400B97FB5 /* ScribbleLink.app */,
+				388F4EB52B3D985600B97FB5 /* ScribbleLinkTests.xctest */,
+				388F4EBF2B3D985600B97FB5 /* ScribbleLinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388F4EA62B3D985400B97FB5 /* ScribbleLink */ = {
+			isa = PBXGroup;
+			children = (
+				388F4EA72B3D985400B97FB5 /* ScribbleLinkApp.swift */,
+				388F4EA92B3D985400B97FB5 /* ContentView.swift */,
+				388F4EAB2B3D985600B97FB5 /* Assets.xcassets */,
+				388F4EAD2B3D985600B97FB5 /* ScribbleLink.entitlements */,
+				388F4EAE2B3D985600B97FB5 /* Preview Content */,
+			);
+			path = ScribbleLink;
+			sourceTree = "<group>";
+		};
+		388F4EAE2B3D985600B97FB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				388F4EAF2B3D985600B97FB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		388F4EB82B3D985600B97FB5 /* ScribbleLinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				388F4EB92B3D985600B97FB5 /* ScribbleLinkTests.swift */,
+			);
+			path = ScribbleLinkTests;
+			sourceTree = "<group>";
+		};
+		388F4EC22B3D985600B97FB5 /* ScribbleLinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				388F4EC32B3D985600B97FB5 /* ScribbleLinkUITests.swift */,
+				388F4EC52B3D985600B97FB5 /* ScribbleLinkUITestsLaunchTests.swift */,
+			);
+			path = ScribbleLinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388F4EA32B3D985400B97FB5 /* ScribbleLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388F4EC92B3D985600B97FB5 /* Build configuration list for PBXNativeTarget "ScribbleLink" */;
+			buildPhases = (
+				388F4EA02B3D985400B97FB5 /* Sources */,
+				388F4EA12B3D985400B97FB5 /* Frameworks */,
+				388F4EA22B3D985400B97FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScribbleLink;
+			productName = ScribbleLink;
+			productReference = 388F4EA42B3D985400B97FB5 /* ScribbleLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		388F4EB42B3D985600B97FB5 /* ScribbleLinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388F4ECC2B3D985600B97FB5 /* Build configuration list for PBXNativeTarget "ScribbleLinkTests" */;
+			buildPhases = (
+				388F4EB12B3D985600B97FB5 /* Sources */,
+				388F4EB22B3D985600B97FB5 /* Frameworks */,
+				388F4EB32B3D985600B97FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388F4EB72B3D985600B97FB5 /* PBXTargetDependency */,
+			);
+			name = ScribbleLinkTests;
+			productName = ScribbleLinkTests;
+			productReference = 388F4EB52B3D985600B97FB5 /* ScribbleLinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		388F4EBE2B3D985600B97FB5 /* ScribbleLinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388F4ECF2B3D985600B97FB5 /* Build configuration list for PBXNativeTarget "ScribbleLinkUITests" */;
+			buildPhases = (
+				388F4EBB2B3D985600B97FB5 /* Sources */,
+				388F4EBC2B3D985600B97FB5 /* Frameworks */,
+				388F4EBD2B3D985600B97FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388F4EC12B3D985600B97FB5 /* PBXTargetDependency */,
+			);
+			name = ScribbleLinkUITests;
+			productName = ScribbleLinkUITests;
+			productReference = 388F4EBF2B3D985600B97FB5 /* ScribbleLinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388F4E9C2B3D985300B97FB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					388F4EA32B3D985400B97FB5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					388F4EB42B3D985600B97FB5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 388F4EA32B3D985400B97FB5;
+					};
+					388F4EBE2B3D985600B97FB5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 388F4EA32B3D985400B97FB5;
+					};
+				};
+			};
+			buildConfigurationList = 388F4E9F2B3D985300B97FB5 /* Build configuration list for PBXProject "ScribbleLink" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 388F4E9B2B3D985300B97FB5;
+			productRefGroup = 388F4EA52B3D985400B97FB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388F4EA32B3D985400B97FB5 /* ScribbleLink */,
+				388F4EB42B3D985600B97FB5 /* ScribbleLinkTests */,
+				388F4EBE2B3D985600B97FB5 /* ScribbleLinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388F4EA22B3D985400B97FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388F4EB02B3D985600B97FB5 /* Preview Assets.xcassets in Resources */,
+				388F4EAC2B3D985600B97FB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388F4EB32B3D985600B97FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388F4EBD2B3D985600B97FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388F4EA02B3D985400B97FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388F4EAA2B3D985400B97FB5 /* ContentView.swift in Sources */,
+				388F4EA82B3D985400B97FB5 /* ScribbleLinkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388F4EB12B3D985600B97FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388F4EBA2B3D985600B97FB5 /* ScribbleLinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388F4EBB2B3D985600B97FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388F4EC62B3D985600B97FB5 /* ScribbleLinkUITestsLaunchTests.swift in Sources */,
+				388F4EC42B3D985600B97FB5 /* ScribbleLinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		388F4EB72B3D985600B97FB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388F4EA32B3D985400B97FB5 /* ScribbleLink */;
+			targetProxy = 388F4EB62B3D985600B97FB5 /* PBXContainerItemProxy */;
+		};
+		388F4EC12B3D985600B97FB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388F4EA32B3D985400B97FB5 /* ScribbleLink */;
+			targetProxy = 388F4EC02B3D985600B97FB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		388F4EC72B3D985600B97FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		388F4EC82B3D985600B97FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		388F4ECA2B3D985600B97FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScribbleLink/ScribbleLink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLink/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		388F4ECB2B3D985600B97FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScribbleLink/ScribbleLink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLink/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		388F4ECD2B3D985600B97FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribbleLink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScribbleLink";
+			};
+			name = Debug;
+		};
+		388F4ECE2B3D985600B97FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribbleLink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScribbleLink";
+			};
+			name = Release;
+		};
+		388F4ED02B3D985600B97FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScribbleLink;
+			};
+			name = Debug;
+		};
+		388F4ED12B3D985600B97FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScribbleLink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388F4E9F2B3D985300B97FB5 /* Build configuration list for PBXProject "ScribbleLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388F4EC72B3D985600B97FB5 /* Debug */,
+				388F4EC82B3D985600B97FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388F4EC92B3D985600B97FB5 /* Build configuration list for PBXNativeTarget "ScribbleLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388F4ECA2B3D985600B97FB5 /* Debug */,
+				388F4ECB2B3D985600B97FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388F4ECC2B3D985600B97FB5 /* Build configuration list for PBXNativeTarget "ScribbleLinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388F4ECD2B3D985600B97FB5 /* Debug */,
+				388F4ECE2B3D985600B97FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388F4ECF2B3D985600B97FB5 /* Build configuration list for PBXNativeTarget "ScribbleLinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388F4ED02B3D985600B97FB5 /* Debug */,
+				388F4ED12B3D985600B97FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 388F4E9C2B3D985300B97FB5 /* Project object */;
+}
