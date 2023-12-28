@@ -28,6 +28,12 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
+      - name: Select Xcode Version ✨
+        run: |
+          sudo xcode-select -switch /Applications/Xcode_15.0.1.app/Contents/Developer
+      - name: Delete DerivedData directory 🗑️
+        run: |
+          rm -rf ~/Library/Developer/Xcode/DerivedData
       - name: Build DocC
         run: |
           xcodebuild docbuild -scheme ScribbleLink \
